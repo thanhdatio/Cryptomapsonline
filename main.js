@@ -4,34 +4,13 @@
   //// Data //////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////
   const links = [
-    { source: "Bitcoin", target: "Amazon", type: "licensing" },
-    { source: "Bitcoin", target: "HTC", type: "licensing" },
-    { source: "Binance", target: "Apple", type: "suit" },
-    { source: "Binance", target: "Apple", type: "suit" },
-    { source: "Nokia", target: "Apple", type: "resolved" },
-    { source: "OKX", target: "Apple", type: "suit" },
-    { source: "Kodak", target: "Apple", type: "suit" },
-    { source: "Bitcoin", target: "Barnes & Noble", type: "suit" },
-    { source: "Bitcoin", target: "Foxconn", type: "suit" },
-    { source: "Binance", target: "Google", type: "suit" },
-    { source: "Binance", target: "HTC", type: "suit" },
-    { source: "Bitcoin", target: "Inventec", type: "suit" },
-    { source: "OKX", target: "Kodak", type: "resolved" },
-    { source: "OKX", target: "Kodak", type: "resolved" },
-    { source: "RIM", target: "Kodak", type: "suit" },
-    { source: "Sony", target: "LG", type: "suit" },
-    { source: "Kodak", target: "LG", type: "resolved" },
-    { source: "Ethereum", target: "Nokia", type: "resolved" },
-    { source: "Bitcoincash", target: "Nokia", type: "resolved" },
-    { source: "Ethereum", target: "Motorola", type: "suit" },
-    { source: "Bitcoin", target: "Motorola", type: "suit" },
-    { source: "OKX", target: "Microsoft", type: "suit" },
-    { source: "OKX", target: "ZTE", type: "suit" },
-    { source: "OKX", target: "ZTE", type: "suit" },
-    { source: "Bitcoincash", target: "Samsung", type: "resolved" },
-    { source: "Bitcoincash", target: "Samsung", type: "suit" },
-    { source: "Bitcoincash", target: "RIM", type: "suit"},
-    { source: "Bitcoin", target: "LTC", type: "resolved" }
+    { source: "Bitcoin", target: "Bitcoin Cash", type: "Hard Forks" },
+    { source: "Bitcoin", target: "Bitcoin Classic", type: "Hard Forks" },
+    { source: "Bitcoin", target: "Bitcoin Gold", type: "Hard Forks" },
+    { source: "Ethereum", target: "Ethereum Classic", type: "Hard Forks" },
+    { source: "Ethereum", target: "Ethereum Pow", type: "Hard Forks" },
+     
+    
   ];
 
   const nodes = {};
