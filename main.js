@@ -9,7 +9,8 @@
     { source: "Bitcoin", target: "Bitcoin Gold", type: "Hard Forks" },
     { source: "Ethereum", target: "Ethereum Classic", type: "Hard Forks" },
     { source: "Ethereum", target: "Ethereum Pow", type: "Hard Forks" },
-     
+    { source: "Ethereum", target: "Ethereum chain", type: "explorer" },
+    { source: "Ethereum chain", target: "Binance chain", type: "explorer" },
     
   ];
 
